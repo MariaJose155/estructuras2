@@ -108,12 +108,6 @@ Es un algoritmo que permite ejecutar instrucciones fuera de orden.
 
 Es una tabla que posee una cantidad limitada de espacios por tipo de instrucción y que sirve para esperar a que los operadores de una instrucción dejen de ser un registro y se conviertan en una constante, una vez eso sucede se hace Dispatch y se libera el espacio en la estación de reserva para la siguiente instrucción en la cola.
 
-# insertar ejemplo Tomasulo simple y luego uno más compicado ambos de un ciclo
-
-<img src="../master/graf1.png" width ="450">
-
-<img src="../master/graf2.png" width ="450">
-
 # EJEMPLOS
 # QUIZ
 1. Usando el algoritmo Tomasulo, ¿cuándo puede ocurrir Dispatch?
@@ -136,17 +130,17 @@ add R2, R1, R3
 mul R1, R4, R2
 
 Ciclo 0
-<img src="../master/quiz1.jpg" width ="450">
+<img src="../master/quiz1.jpeg" width ="450">
 Ciclo 1
-<img src="../master/quiz2.jpg" width ="450">
+<img src="../master/quiz2.jpeg" width ="450">
 Ciclo 2
-<img src="../master/quiz3.jpg" width ="450">
+<img src="../master/quiz3.jpeg" width ="450">
 Ciclo 9
-<img src="../master/quiz4.jpg" width ="450">
+<img src="../master/quiz4.jpeg" width ="450">
 Ciclo 15
-<img src="../master/quiz5.jpg" width ="450">
+<img src="../master/quiz5.jpeg" width ="450">
 Ciclo 27
-<img src="../master/quiz6.jpg" width ="450">
+<img src="../master/quiz6.jpeg" width ="450">
 
  
 # BIBLIOGRAFIA
