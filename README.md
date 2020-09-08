@@ -125,21 +125,35 @@ R/ De arquitectura: Son los disponibles para el compilador (programador). EL com
 4. Use el algoritmo de tomasulo sobre las siguientes instrucciones para determinar en qué período se ejecutan (Issue, Dispatch, Write). Considere los siguientes tiempos de ejecución: add = 5 ciclos, sub = 5 ciclos, mul = 12 ciclos, además considere que solo tiene una unidad funcional de add/sub y de mul. Los valores iniciales son R1 = 2, R2 = 1, R3 = -2, R4 = 3.
 
 Intrucciones: 
+
 sub R1, R2, R3
+
 add R2, R1, R3
+
 mul R1, R4, R2
 
 Ciclo 0
+
 <img src="../master/quiz1.jpeg" width ="450">
+
 Ciclo 1
+
 <img src="../master/quiz2.jpeg" width ="450">
+
 Ciclo 2
+
 <img src="../master/quiz3.jpeg" width ="450">
+
 Ciclo 9
+
 <img src="../master/quiz4.jpeg" width ="450">
+
 Ciclo 15
+
 <img src="../master/quiz5.jpeg" width ="450">
+
 Ciclo 27
+
 <img src="../master/quiz6.jpeg" width ="450">
 
  
